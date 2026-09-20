@@ -35,6 +35,28 @@ analysis/
 LlamaFactory-main/llamaboard_cache/
 LlamaFactory-main/saves/
 
+# Generated experiment results (keep experiment scripts, omit outputs)
+dual_moe_enhanced/experiments/paper_figures/
+dual_moe_enhanced/experiments/paper_tables/
+dual_moe_enhanced/experiments/ablation/*_results*.csv
+dual_moe_enhanced/experiments/case_visualization/*.csv
+dual_moe_enhanced/experiments/cutting_branch/*_results.csv
+dual_moe_enhanced/experiments/cutting_branch/*_summary.csv
+dual_moe_enhanced/experiments/dataset_statistics/*_statistics.csv
+dual_moe_enhanced/experiments/error_analysis/*_analysis.csv
+dual_moe_enhanced/experiments/error_analysis/*_notes.md
+dual_moe_enhanced/experiments/main_comparison/*_summary.csv
+dual_moe_enhanced/experiments/main_comparison/*_table.csv
+dual_moe_enhanced/experiments/moe_analysis/*_log.csv
+dual_moe_enhanced/experiments/qwen_benefit/*_summary.csv
+dual_moe_enhanced/experiments/qwen_efficiency/*_summary.csv
+dual_moe_enhanced/experiments/qwen_efficiency/*_table.csv
+dual_moe_enhanced/experiments/robustness/*_results.csv
+dual_moe_enhanced/experiments/robustness/*_summary.csv
+dual_moe_enhanced/experiments/robustness/*_table.csv
+dual_moe_enhanced/gate_data/real_features.csv
+industrial_cctv_training/reports/
+
 # Local datasets
 industrial_cctv_training/dataset/
 Welding_Relation_Dataset/

@@ -1,4 +1,0 @@
-﻿case_type,case_title,video,frame,time_sec,gt_violation,geometry_score,mask_conf,collector_conf,trigger_qwen,trigger_tag,trigger_reason
-CLEAR_PASS,高置信视觉判定,RWL_VID_00009.mp4,416,13.867,0,0.9314,0.6749,0.7741,False,CLEAR_PASS,高分+高置信度
-AMBIGUOUS_MID,Qwen惰性复核触发,RWL_VID_00010.mp4,330,11.0,0,0.6254,0.7142,0.8746,True,AMBIGUOUS_MID,中等分数(0.63)
-CLEAR_FAIL,低置信直接告警,RWL_VID_00020.mp4,0,0.0,1,0.0,0.0,0.0,False,CLEAR_FAIL,低分(0.00)
