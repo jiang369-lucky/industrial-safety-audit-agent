@@ -1,0 +1,47 @@
+# 模型路径
+model_name_or_path: D:/yolo/Spark-Gated MoE Framework/model/Qwen3-VL-4B-Instruct
+trust_remote_code: true
+
+# 微调方法
+stage: sft
+finetuning_type: lora
+lora_target: all
+
+# 数据集配置 - 使用切割数据集
+dataset: industrial_safety_cut
+template: qwen3_vl
+cutoff_len: 1024
+
+# 验证集配置
+val_size: 0.2                     # 20% 数据作为验证集
+per_device_eval_batch_size: 1
+eval_strategy: steps
+# 总步数 = (80条训练集 × 3轮) ÷ (1 × 4梯度累积) = 240 ÷ 4 = 60步
+eval_steps: 60                    # 最后验证一次
+eval_accumulation_steps: 1
+
+# 训练参数
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+learning_rate: 2.0e-4
+num_train_epochs: 3.0
+bf16: true
+
+# 视觉参数
+image_max_pixels: 262144
+image_min_pixels: 4096
+dataloader_num_workers: 0
+remove_unused_columns: false
+
+# 训练控制
+do_train: true
+do_eval: true
+overwrite_output_dir: true
+output_dir: saves/qwen3-vl-cut-3epoch
+logging_steps: 1
+save_strategy: "no"
+report_to: "none"
+
+# 验证指标
+include_num_input_tokens_seen: true
+prediction_loss_only: false

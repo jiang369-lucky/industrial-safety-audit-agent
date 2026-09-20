@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IndustrialSafetyAuditReport",
+  "type": "object",
+  "required": ["report_id", "scene", "verdict", "risk_score", "confidence", "route", "actions"],
+  "properties": {
+    "report_id": {"type": "string"},
+    "scene": {"type": "string", "enum": ["auto", "welding", "cutting", "idle"]},
+    "verdict": {"type": "string", "enum": ["compliant", "non_compliant", "uncertain", "need_human"]},
+    "risk_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "route": {"type": "object"},
+    "missing_items": {"type": "array", "items": {"type": "string"}},
+    "policy_evidence": {"type": "array", "items": {"type": "object"}},
+    "vlm_review": {"type": ["object", "null"]},
+    "temporal_evidence": {"type": ["object", "null"]},
+    "actions": {"type": "array", "items": {"type": "string"}},
+    "markdown": {"type": "string"}
+  }
+}

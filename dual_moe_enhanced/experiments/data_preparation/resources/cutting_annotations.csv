@@ -1,0 +1,9 @@
+﻿video_name,start_sec,end_sec,scene_gt,violation_gt,reason_gt,scope
+RWL_VID_00001.mp4,0,11,idle,0,none,ignore
+RWL_VID_00001.mp4,11,16,cutting,0,none,active
+RWL_VID_00001.mp4,16,18,idle,0,none,ignore
+RWL_VID_00001.mp4,18,56,cutting,0,none,active
+RWL_VID_00013.mp4,0,11,cutting,0,none,active
+RWL_VID_00014.mp4,0,25,cutting,0,none,active
+RWL_VID_00014.mp4,25,26,cutting,1,missing_fire_extinguisher,active
+RWL_VID_00015.mp4,0,14,cutting,0,none,active

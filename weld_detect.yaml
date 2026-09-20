@@ -1,0 +1,8 @@
+path: ./dataset/dataset_detect/welding
+train: images/train
+val: images/val
+nc: 3
+names:
+  0: collector
+  1: worker
+  2: mask

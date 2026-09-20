@@ -1,0 +1,14 @@
+﻿video_name,start_sec,end_sec,scene_gt,violation_gt,reason_gt,scope
+RWL_VID_00007.mp4,0,8,idle,0,none,ignore
+RWL_VID_00007.mp4,8,12,welding,0,none,active
+RWL_VID_00007.mp4,12,24,idle,0,none,ignore
+RWL_VID_00008.mp4,0,13,welding,0,none,active
+RWL_VID_00009.mp4,0,70,welding,0,none,active
+RWL_VID_00009.mp4,70,84,idle,0,none,ignore
+RWL_VID_00010.mp4,0,11,idle,0,none,ignore
+RWL_VID_00010.mp4,11,40,welding,0,none,active
+RWL_VID_00010.mp4,40,44,idle,0,none,ignore
+RWL_VID_00010.mp4,44,56,welding,0,none,active
+RWL_VID_00020.mp4,0,17,welding,1,missing_mask&missing_collector,active
+RWL_VID_00021.mp4,0,17,welding,1,missing_collector,active
+RWL_VID_00022.mp4,0,23,welding,1,improper_wear&missing_collector,active

@@ -1,0 +1,7 @@
+path: D:/yolo/Spark-Gated MoE Framework/industrial_cctv_training/dataset/dataset_detect/cutting
+train: images/train
+val: images/val
+nc: 2
+names:
+  0: worker
+  1: extinguisher

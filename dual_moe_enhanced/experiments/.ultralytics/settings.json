@@ -1,0 +1,20 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "D:\\yolo\\Spark-Gated MoE Framework\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "805eb2625ed995c2b129536bfdc483ee916ac15476e239839385c638a769009f",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": true,
+  "wandb": false,
+  "vscode_msg": true
+}

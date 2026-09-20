@@ -1,0 +1,41 @@
+# Local environments and generated dependencies
+.cache/
+.codex/
+.agents/
+.git-backup-upload/
+control_env/
+node_modules/
+**/node_modules/
+__pycache__/
+*.py[cod]
+.idea/
+
+# Local configuration and secrets
+.env*
+LlamaFactory-main/.env.local
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Videos and generated outputs
+*.mp4
+*.avi
+*.mov
+*.mkv
+detection_results/
+outputs/
+logs/
+runs/
+tmp/
+analysis/
+LlamaFactory-main/llamaboard_cache/
+LlamaFactory-main/saves/
+
+# Local datasets
+industrial_cctv_training/dataset/
+Welding_Relation_Dataset/
+welders-ppe/

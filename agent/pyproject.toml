@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "industrial-audit-agent"
+version = "0.1.0"
+description = "Dynamic-routing industrial safety audit agent with YOLO, VLM review, RAG and structured reporting."
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,28 @@
+# Core service
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.4
+python-multipart==0.0.20
+
+# Agent workflow
+langgraph==0.2.60
+langchain-core==0.3.28
+
+# Vision and model adapters
+numpy==1.26.4
+opencv-python==4.10.0.84
+ultralytics==8.3.40
+torch>=2.3.0
+torchvision>=0.18.0
+transformers>=4.47.0
+peft>=0.14.0
+accelerate>=1.2.0
+pillow>=10.4.0
+
+# Retrieval and MCP integration
+rank-bm25==0.2.2
+pymilvus==2.5.0
+mcp>=1.2.0
+
+# Developer utilities
+pytest>=8.3.0

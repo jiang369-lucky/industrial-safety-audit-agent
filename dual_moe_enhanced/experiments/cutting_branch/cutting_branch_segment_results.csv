@@ -1,0 +1,7 @@
+﻿condition,segment_id,video_name,start_sec,end_sec,gt_violation,pred_violation,pred_violation_ratio,sampled_frames,reason_gt
+clean,0,RWL_VID_00001.mp4,11.0,16.0,0,0,0.0,150,none
+clean,1,RWL_VID_00001.mp4,18.0,56.0,0,0,0.0,1140,none
+clean,2,RWL_VID_00013.mp4,0.0,11.0,0,0,0.0,330,none
+clean,3,RWL_VID_00014.mp4,0.0,25.0,0,0,0.065333,750,none
+clean,4,RWL_VID_00014.mp4,25.0,26.0,1,0,0.0,30,missing_fire_extinguisher
+clean,5,RWL_VID_00015.mp4,0.0,14.0,0,0,0.0,420,none
